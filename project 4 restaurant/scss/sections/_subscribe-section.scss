@@ -1,0 +1,33 @@
+.subscribe-section {
+  &__container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__email {
+    background-color: transparent;
+    width: 240px;
+    height: 40px;
+    border: 2px solid var(--button);
+    border-radius: 5px;
+    color: var(--button);
+    font-size: 15px;
+  }
+
+  &__button {
+    background-color: var(--button);
+    border-radius: 1px 10px 10px 1px;
+    border: 2px solid var(--button);
+    color: var(--background);
+    width: 150px;
+    height: 43px;
+    font-size: 18px;
+
+    &:hover {
+      background-color: var(--background);
+      color: var(--button);
+
+    }
+  }
+
+}

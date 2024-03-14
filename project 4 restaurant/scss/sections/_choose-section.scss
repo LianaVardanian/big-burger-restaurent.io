@@ -1,0 +1,14 @@
+.choose-section {
+  padding: 30px 140px;
+
+  &__container {
+    box-shadow: 1px 1px 3px var(--button);
+    padding: 25px 20px;
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}

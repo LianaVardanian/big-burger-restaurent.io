@@ -1,0 +1,24 @@
+.hero-section {
+padding:  50px 75px;
+
+  &__title {
+    font-size: 55px;
+    text-shadow: 1px 1px 1px var(--button);
+    width: 690px;
+  }
+  &__text {
+    font-size: 22px;
+  }
+  
+  &__container {
+    display: flex;
+    gap: 40px;
+    max-width: 600px;
+    max-height: 550px
+  }
+  
+  &__image {
+    max-width: 650px;
+    max-height: 650px;
+  }
+  }

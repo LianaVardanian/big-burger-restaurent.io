@@ -1,0 +1,40 @@
+.advantages-section {
+  &__steakimage {
+    padding-top: 80px;
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 65px;
+    text-transform: capitalize;
+    text-shadow: 1px 2px 3px var(--button);
+  }
+
+  &__content {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__titleh3 {
+    text-transform: uppercase;
+    color: var(--button);
+    text-shadow: 1px 1px 2px black;
+  }
+
+  &__image {
+    width: 180px;
+    height: 180px;
+  }
+
+
+
+  &__text {
+    font-size: 20px;
+    width: 500px;
+
+  }
+}

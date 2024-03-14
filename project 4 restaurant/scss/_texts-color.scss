@@ -1,0 +1,31 @@
+.text-orange {
+  color: var(--button);
+  text-shadow: 2px 2px 2px black;
+}
+
+.italic-orange {
+  font-family: 'italic', sans-serif;
+  font-style: italic;
+  color: var(--button);
+  text-shadow: 0px 0px 1px black;
+}
+
+.prix {
+  text-transform: uppercase;
+  color: var(--prix);
+  font-weight: 700;
+}
+
+.orange {
+  color: var(--button);
+  text-decoration: underline;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+}
+
+.uppercase{
+text-transform: uppercase;
+}

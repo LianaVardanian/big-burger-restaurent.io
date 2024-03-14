@@ -1,0 +1,44 @@
+.header-section {
+  &__nav {
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--button);
+    border-top: none;
+    border-left: none;
+  }
+
+  &__logo {
+    align-items: center;
+    align-content: center;
+    width: 85px;
+    height: 60px;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 45px;
+    font-weight: 700;
+    font-size: 20PX;
+
+
+  }
+
+  &__link {
+    color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px var(--button);
+    margin-bottom: 0px;
+
+    &:hover {
+      color: var(--button);
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+
+}
